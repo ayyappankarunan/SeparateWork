@@ -1,131 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginStart="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:padding="5dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
+    <com.example.separateworks.LineOrBarView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:type="line" />
 
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            app:name="PRECIP QTY"
-            app:value=".03in" />
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            app:name="HUMDITY"
-            app:value="97%" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            app:name="SNOW QTY"
-            app:value="3-5in" />
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            app:name="WIND DIR"
-            app:value="NNE" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            app:name="UV INDEX"
-            app:value="2 Low" />
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            app:name="WIND MPH"
-            app:value="14 MPH" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            app:name="SUN RISE"
-            app:value="6:22 AM" />
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            app:name="MOON RISE"
-            app:value="6:59 AM" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            app:name="SUN SET"
-            app:value="7:54 PM" />
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            app:name="MOON SET"
-            app:value="6:54 PM" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal">
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            app:name="MOON PH"
-            app:value="Wax.Gib" />
-
-        <com.example.separateworks.NameValueView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            app:name="MOON PH"
-            app:value="Wax.Gib." />
-    </LinearLayout>
+    <com.example.separateworks.LineOrBarView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp" />
 </LinearLayout>

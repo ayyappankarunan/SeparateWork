@@ -5,4 +5,11 @@
         <attr name="value" format="string" />
         <attr name="android:ems" />
     </declare-styleable>
+
+    <declare-styleable name="LineOrBarView">
+        <attr name="type" format="enum">
+            <enum name="line" value="0" />
+            <enum name="bar" value="1" />
+        </attr>
+    </declare-styleable>
 </resources>
